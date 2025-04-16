@@ -4,6 +4,11 @@
  - Pandas
  - Error handling
  - Data structures
+ - OOP
+
+## Following things were considered
+ - Scalability
+ - Modularity
 
 ## To run through docker
  -  `docker build week_1 .`
