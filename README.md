@@ -9,6 +9,7 @@
 ## Following things were considered
  - Scalability
  - Modularity
+ - Code readability
 
 ## To run through docker
  -  `docker build week_1 .`
