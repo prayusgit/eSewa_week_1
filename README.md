@@ -8,7 +8,7 @@
 
 ## Functionalities
 - Register
-- Login
+- Login throught password
 - User Profile
 - Buy items
 - Transaction history of each user
