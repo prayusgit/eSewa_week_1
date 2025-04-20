@@ -6,11 +6,21 @@
  - Data structures
  - OOP
 
+## Functionalities
+- Register
+- Login
+- User Profile
+- Buy items
+- Transaction history of each user
+- Authentication and authorization
+- Logout
+
 ## Following things were considered
  - Scalability
  - Modularity
  - Code readability
- - <bold>User Perosnalization</bold>
+ - <bold>User Personalization</bold>
+
 
 ## To run through docker
  -  `docker build week_1 .`
