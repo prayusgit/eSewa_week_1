@@ -10,6 +10,7 @@
  - Scalability
  - Modularity
  - Code readability
+ - <bold>User Perosnalization</bold>
 
 ## To run through docker
  -  `docker build week_1 .`
