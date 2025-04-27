@@ -19,6 +19,8 @@ class User:
             saved_password = self.user_list[self.user_list.username == username].password.values[0]
             if saved_password == password:
                 print("Welcome " + username)
+                self.username = username
+                self.password = password
                 self.authenticated = True
                 self.amount = self.user_list[self.user_list.username == username].amount.values[0]
             else:
@@ -42,7 +44,7 @@ class User:
 
     def logout(self, amount):
         self.user_list.loc[self.user_list['username'] == self.username, 'amount'] = amount
-        self.user_list.to_csv(USER_LIST ,index=False ,)
+        self.user_list.to_csv(USER_LIST ,index=False)
         self.authenticated = False
 
 
